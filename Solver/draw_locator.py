@@ -185,5 +185,6 @@ def run(img, model_path="model.pth"):
 
 # Example
 image_path = 'Your image path'
-image = cv2.imread(image_path)
-print(run(img=image))
+model_path = "Your model.pth"
+img = cv2.imread(image_path)
+print(run(img=img,model_path=model_path))
