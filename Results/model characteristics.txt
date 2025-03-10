@@ -1,0 +1,4 @@
+The best model provided here has been trained for 100 epochs with an initial learning rate of 1e-2.
+This learning rate was halved every 20 epochs and achieved an average pixel error of 11 pixels.
+This error does not affect captcha validation, so we consider this model sufficient for deployment in production.
+Across the entire evaluation/test set of 252 captchas, it has never produced an invalid coordinate.
